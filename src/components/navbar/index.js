@@ -35,6 +35,11 @@ function Navbar({logo}) {
 
       <div id="navbarList" className= {burgerClick ? 'navbar-menu is-active dropdown' : "navbar-menu dropdown"}>
         <nav className="level">
+        <p className="level-item has-text-centered">
+            <a className="link is-info"
+            href="/"
+            onClick={handleToggle}>Home</a>
+          </p>
           <p className="level-item has-text-centered">
             <a className="link is-info"
             href="/menu"
