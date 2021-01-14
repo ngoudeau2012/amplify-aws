@@ -14,11 +14,10 @@
     color: #000000; 
 }
 
-.address,.phoneNumber, .hours{
+.address, .phoneNumber, .hours{
     font-weight: 400;
     font-size: 12px;
     color: #000000;
-    margin: 
 }
 
 .days{
