@@ -105,6 +105,7 @@ function Menu() {
   return (
     <div className="">
       <Navbar logo={Logo} />
+      <FooterSpacer />
       <Section>
         <ListCard>
           <MenuNav />

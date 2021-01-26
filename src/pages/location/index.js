@@ -25,6 +25,7 @@ function Location() {
   return (
     <div className="">
       <Navbar logo={Logo}/>
+      <FooterSpacer />
       <BannerImg img={Map}/>
       <Section>
         <LocationText />

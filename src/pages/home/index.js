@@ -10,6 +10,7 @@ import ScrollingImages from '../../components/scrollingImages'
 import SocialMedia from '../../components/socialMedia';
 import FooterSpacer from '../../components/footerSpacer';
 import Footer from '../../components/footer';
+import "./home.css"
 
 let ourStory = {}
 
@@ -24,6 +25,8 @@ function Home() {
   return (
     <div className="">
       <Navbar logo={Logo}/>
+      <div className="webBody">
+      <FooterSpacer />
       <BannerImg img={Banner1}/>
       <Section>
         <TextArea 
@@ -37,6 +40,7 @@ function Home() {
       <Section>
         <SocialMedia />
       </Section>
+      </div>
       <FooterSpacer />
       <Footer />
     </div>

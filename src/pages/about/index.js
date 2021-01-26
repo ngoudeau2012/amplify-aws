@@ -41,6 +41,7 @@ function About() {
   return (
     <div className="">
       <Navbar logo={Logo} />
+      <FooterSpacer />
       <BannerImg img={AbtImg} />
       <Section>
         <TextArea title={aboutUs.title} body={aboutUs.bodyText} />
