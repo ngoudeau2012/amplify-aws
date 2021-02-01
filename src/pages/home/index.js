@@ -11,6 +11,7 @@ import SocialMedia from '../../components/socialMedia';
 import FooterSpacer from '../../components/footerSpacer';
 import Footer from '../../components/footer';
 import "./home.css"
+import NavSpacer from '../../components/navSpacer';
 
 let ourStory = {}
 
@@ -26,7 +27,7 @@ function Home() {
     <div className="">
       <Navbar logo={Logo}/>
       <div className="webBody">
-      <FooterSpacer />
+      <NavSpacer/>
       <BannerImg img={Banner1}/>
       <Section>
         <TextArea 

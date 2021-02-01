@@ -11,6 +11,7 @@ import SocialMedia from '../../components/socialMedia';
 import FooterSpacer from '../../components/footerSpacer';
 import Footer from '../../components/footer';
 import LocationText from '../../components/locationsText';
+import NavSpacer from '../../components/navSpacer';
 
 let ourStory = {}
 
@@ -25,7 +26,7 @@ function Location() {
   return (
     <div className="">
       <Navbar logo={Logo}/>
-      <FooterSpacer />
+      <NavSpacer/>
       <BannerImg img={Map}/>
       <Section>
         <LocationText />

@@ -15,6 +15,7 @@ import Headshot2 from "../../assets/foodPhotos/headshot2.png";
 import ListCard from "../../components/listCard";
 import ItemPhotoDescription from "../../components/itemPhotoDescription";
 import "./style.css";
+import NavSpacer from "../../components/navSpacer";
 
 let aboutUs = {};
 
@@ -41,7 +42,7 @@ function About() {
   return (
     <div className="">
       <Navbar logo={Logo} />
-      <FooterSpacer />
+      <NavSpacer />
       <BannerImg img={AbtImg} />
       <Section>
         <TextArea title={aboutUs.title} body={aboutUs.bodyText} />

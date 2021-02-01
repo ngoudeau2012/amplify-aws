@@ -4,7 +4,7 @@ import "./style.css";
 function FooterSpacer() {
   return (
     <div>
-        <div className="spacer"></div>
+        <div className="footer-spacer"></div>
     </div>
   );
 }

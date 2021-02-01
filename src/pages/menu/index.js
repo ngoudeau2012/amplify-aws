@@ -13,6 +13,7 @@ import MenuJson from "../../assets/menu.json";
 import menuPhotos from "../../assets/foodPhotos/index";
 import MenuNav from "../../components/menuNav";
 import MenuTitle from "../../components/menuTitle";
+import NavSpacer from "../../components/navSpacer";
 
 let ramenArr = [];
 let appetizerArr = [];
@@ -105,7 +106,7 @@ function Menu() {
   return (
     <div className="">
       <Navbar logo={Logo} />
-      <FooterSpacer />
+      <NavSpacer />
       <Section>
         <ListCard>
           <MenuNav />
