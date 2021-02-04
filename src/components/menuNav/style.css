@@ -3,7 +3,7 @@
 }
 
 .category{
-    font-size: 10px;
+    font-size: 14px;
     line-height: 11.73px;
 }
 
@@ -17,4 +17,5 @@
     color: #60042E ;
     width: 100%;
     background: #60042E;
+    padding-top: 1em;
 }

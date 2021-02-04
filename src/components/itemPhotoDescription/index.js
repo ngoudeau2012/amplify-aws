@@ -11,7 +11,7 @@ function ItemPhotoDescription({item,colSize,menu}) {
     console.log(colSize)
     colState = "column is-one-third"
   }else if(colSize ==="2"){
-    colState = "column is-half"
+    colState = ""
   }
   return (
     <div className={colState}>
