@@ -31,10 +31,6 @@ function Location() {
       <Section>
         <LocationText />
       </Section>
-      
-      <Section>
-        <SocialMedia />
-      </Section>
       <FooterSpacer />
       <Footer />
     </div>

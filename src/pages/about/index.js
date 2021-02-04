@@ -48,7 +48,7 @@ function About() {
         <TextArea title={aboutUs.title} body={aboutUs.bodyText} />
       </Section>
 
-      <Section>
+      {/* <Section>
         <ListCard>
           <div className="titleDiv">
             <p className="title">Meet Our Team</p>
@@ -60,7 +60,7 @@ function About() {
           </div>
         </ListCard>
         <SocialMedia />
-      </Section>
+      </Section> */}
       <FooterSpacer />
       <Footer />
     </div>

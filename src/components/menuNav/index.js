@@ -7,12 +7,12 @@ return(
      <nav className="level is-mobile menuNav">
   <div className="level-item has-text-centered">
     <div>
-      <p className="category selected">Ramen</p>
+      <a className="category selected">Ramen</a>
     </div>
   </div>
   <div className="level-item has-text-centered">
     <div>
-      <p className="category">Appetizers</p>
+      <a className="category" href="#appetizer">Appetizers</a>
     </div>
   </div>
   <div className="level-item has-text-centered">

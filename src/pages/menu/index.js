@@ -110,13 +110,13 @@ function Menu() {
       <Section>
         <ListCard>
           <MenuNav />
-          <MenuTitle title="Ramen" />
+          <MenuTitle title="Ramen" id="ramen" />
           <div className="columns is-multiline is-mobile">
             {ramenArr.map((ramen) => (
               <ItemPhotoDescription item={ramen} colSize="2" menu="true"/>
             ))}
           </div>
-          <MenuTitle title="Appetizers" />
+          <MenuTitle title="Appetizers" id="appetizer"/>
           <div className="columns is-multiline is-mobile">
             {appetizerArr.map((appetizer) => (
               <ItemPhotoDescription item={appetizer} colSize="2" menu="true"/>
@@ -126,7 +126,7 @@ function Menu() {
             ))}
           </div>
           
-          <MenuTitle title="Rice Bowls" />
+          <MenuTitle title="Rice Bowls" id="rice_bowls"/>
           <div className="columns is-multiline is-mobile">
             {riceBowlArr.map((riceBowl) => (
               <ItemPhotoDescription item={riceBowl} colSize="2" menu="true"/>
@@ -135,7 +135,7 @@ function Menu() {
               <ItemDescription item={riceBowl} colSize="1" menu="true"/>
             ))}
           </div>
-          <MenuTitle title="Combos" subtitle="Any ramen + side salad + appetizer"/>
+          <MenuTitle title="Combos" id="combos" subtitle="Any ramen + side salad + appetizer"/>
           <div className="columns is-multiline is-mobile">
             {comboArr.map((combo) => (
               <ItemPhotoDescription item={combo} colSize="2" menu="true"/>

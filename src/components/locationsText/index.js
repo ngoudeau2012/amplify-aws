@@ -4,7 +4,7 @@ import "./style.css";
 function LocationText(props) {
   return (
     <div>
-      <div class="columns is-mobile">
+      {/* <div class="columns is-mobile">
         <div class="column">
           <h1 className="locationTitle">Ballard</h1>
           <p className="address">5401 20th Ave NW, Seattle, WA 9810</p>
@@ -36,6 +36,34 @@ function LocationText(props) {
           <p className="days">Closed Mondays</p>
           <p className="days">Tues-Sun</p>
           <p className="hours">11:30am - 9:30pm</p>
+        </div>
+      </div> */}
+
+<div class="location">
+        <div class="">
+          <h1 className="locationTitle">Ballard</h1>
+          
+          <p className="address">5401 20th Ave NW</p>
+          <p className="address">Seattle, WA 98107</p>
+          <p className="phoneNumber">(206) 492-7933</p>
+          <h3 className="locationSubTitle">Hours</h3>
+          <p className="days">Closed Mondays</p>
+          <p className="days">Sun-Thurs: 11:30am - 9:30pm</p>
+          <p className="hours"></p>
+          <p className="days">Fri & Sat: 11:30am - 10:00pm</p>
+          <p className="hours"></p>
+        </div>
+
+        <hr/>
+        <div class="southcenter">
+          <h1 className="locationTitle">Southcenter</h1>
+          <p className="address">17045 Southcenter Pkwy</p>
+          <p className="address">Tulwila, WA 998188</p>
+          <p className="phoneNumber">(253) 220-8722</p>
+          <h3 className="locationSubTitle">Hours</h3>
+          <p className="days">Closed Mondays</p>
+          <p className="days">Tues-Sun: 11:30am - 9:30pm</p>
+          <p className="hours"></p>
         </div>
       </div>
     </div>
