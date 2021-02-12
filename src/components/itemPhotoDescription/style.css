@@ -8,6 +8,7 @@
 }
 .image{
     margin-bottom: 5px;
+    position: unset;
 }
 .description{
     font-weight: 400;

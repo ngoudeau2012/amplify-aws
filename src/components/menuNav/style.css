@@ -1,20 +1,40 @@
-.menuNav{
-    margin: 24px 18.5px !important;
+nav.menuNav{
+    margin: 0px 0px 0px 0px !important;
+    padding: 1em 1em;
+    background: white;
+    z-index: 10;
 }
 
 .category{
     font-size: 14px;
     line-height: 11.73px;
+    color: maroon;
 }
 
 .selected{
     font-family: 'Roboto', sans-serif;
 }
-.selected:after{
+/* .selected:after{
     content: "";
     height: 2px;
     display: block;
     color: #60042E ;
     width: 100%;
     background: #60042E;
+} */
+.navLine{
+    border: 0;
+    clear: both;
+    display: block;
+    width: 80%;
+    background-color: #B8B8B8;
+    height: 1px;
+    margin: .2em auto;
+}
+
+.sticky{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }

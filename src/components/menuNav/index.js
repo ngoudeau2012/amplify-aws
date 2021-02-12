@@ -4,6 +4,7 @@ import "./style.css"
 function MenuNav(){
     
 return(
+  <div className="sticky">
      <nav className="level is-mobile menuNav">
   <div className="level-item has-text-centered">
     <div>
@@ -17,15 +18,16 @@ return(
   </div>
   <div className="level-item has-text-centered">
     <div>
-      <p className="category">Rice Bowls</p>
+      <a className="category" href="#rice_bowls">Rice Bowls</a>
     </div>
   </div>
   <div className="level-item has-text-centered">
     <div>
-      <p className="category">Combos</p>
+      <a className="category" href="#combos">Combos</a>
     </div>
   </div>
 </nav>
+</div>
 )
 }
 

@@ -44,8 +44,8 @@ function About() {
       <Navbar logo={Logo} />
       <NavSpacer />
       <BannerImg img={AbtImg} />
-      <Section>
-        <TextArea title={aboutUs.title} body={aboutUs.bodyText} />
+      <Section id="aboutUs">
+        <TextArea title={aboutUs.title} body={aboutUs.bodyText} id="aboutUs"/>
       </Section>
 
       {/* <Section>
@@ -61,7 +61,7 @@ function About() {
         </ListCard>
         <SocialMedia />
       </Section> */}
-      <FooterSpacer />
+      {/* <FooterSpacer /> */}
       <Footer />
     </div>
   );

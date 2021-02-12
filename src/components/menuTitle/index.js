@@ -9,7 +9,7 @@ let subtitle = ""
     }
     return(
         <div className="titleContainer">
-                <h1 className="menuTitle">{props.title}</h1>
+                <h1 className="menuTitle" id={props.id}>{props.title}</h1>
     <p className="menuSubTitle">{subtitle}</p>
         </div>
     )

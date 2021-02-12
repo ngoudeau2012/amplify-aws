@@ -104,7 +104,7 @@ MenuJson.map((item) => {
 
 function Menu() {
   return (
-    <div className="">
+    <div className="sticky">
       <Navbar logo={Logo} />
       <NavSpacer />
       <Section>
