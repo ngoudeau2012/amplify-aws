@@ -117,7 +117,7 @@ function Menu() {
             ))}
           </div>
           <MenuTitle title="Appetizers" id="appetizer"/>
-          <div className="columns is-multiline is-mobile">
+          <div className="columns">
             {appetizerArr.map((appetizer) => (
               <ItemPhotoDescription item={appetizer} colSize="2" menu="true"/>
             ))}
@@ -136,9 +136,9 @@ function Menu() {
             ))}
           </div>
           <MenuTitle title="Combos" id="combos" subtitle="Any ramen + side salad + appetizer"/>
-          <div className="columns is-multiline is-mobile">
+          <div className="columns">
             {comboArr.map((combo) => (
-              <ItemPhotoDescription item={combo} colSize="2" menu="true"/>
+              <ItemPhotoDescription item={combo} colSize="1" menu="true"/>
             ))}
             {nonPhotoComboArr.map((combo) => (
               <ItemDescription item={combo} colSize="1" menu="true"/>
