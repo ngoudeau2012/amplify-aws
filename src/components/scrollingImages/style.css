@@ -24,6 +24,7 @@
 /* Section and Title */
 .section{
   padding: 20px 1.5em 22px 1.5em;
+  background-color: #F6F6F6 !important;
 }
   .title{
     color: #B50936;

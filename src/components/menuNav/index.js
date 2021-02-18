@@ -8,7 +8,7 @@ return(
      <nav className="level is-mobile menuNav">
   <div className="level-item has-text-centered">
     <div>
-      <a className="category selected">Ramen</a>
+      <a className="category selected" href="#ramen">Ramen</a>
     </div>
   </div>
   <div className="level-item has-text-centered">

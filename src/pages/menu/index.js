@@ -14,6 +14,7 @@ import menuPhotos from "../../assets/foodPhotos/index";
 import MenuNav from "../../components/menuNav";
 import MenuTitle from "../../components/menuTitle";
 import NavSpacer from "../../components/navSpacer";
+import "./menu.css"
 
 let ramenArr = [];
 let appetizerArr = [];
@@ -116,7 +117,8 @@ function Menu() {
               <ItemPhotoDescription item={ramen} colSize="2" menu="true"/>
             ))}
           </div>
-          <MenuTitle title="Appetizers" id="appetizer"/>
+          <div class="linkSpacer" id="appetizer"></div>
+          <MenuTitle title="Appetizers"/>
           <div className="columns">
             {appetizerArr.map((appetizer) => (
               <ItemPhotoDescription item={appetizer} colSize="2" menu="true"/>
@@ -125,8 +127,8 @@ function Menu() {
               <ItemDescription item={appetizer} colSize="1" menu="true"/>
             ))}
           </div>
-          
-          <MenuTitle title="Rice Bowls" id="rice_bowls"/>
+          <div class="linkSpacer" id="rice_bowls"></div>
+          <MenuTitle title="Rice Bowls"/>
           <div className="columns is-multiline is-mobile">
             {riceBowlArr.map((riceBowl) => (
               <ItemPhotoDescription item={riceBowl} colSize="2" menu="true"/>
@@ -135,7 +137,8 @@ function Menu() {
               <ItemDescription item={riceBowl} colSize="1" menu="true"/>
             ))}
           </div>
-          <MenuTitle title="Combos" id="combos" subtitle="Any ramen + side salad + appetizer"/>
+          <div class="linkSpacer" id="combos"></div>
+          <MenuTitle title="Combos" subtitle="Any ramen + side salad + appetizer"/>
           <div className="columns">
             {comboArr.map((combo) => (
               <ItemPhotoDescription item={combo} colSize="1" menu="true"/>

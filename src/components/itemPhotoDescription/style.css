@@ -16,3 +16,9 @@
     font-size: 12px;
     padding: .75em 4em 2em 4em;
 }
+p + div.linkSpacer{
+    font-weight: 400;
+    line-height: 14.08px;
+    font-size: 12px;
+    padding: .75em 4em 0em 4em;
+}
